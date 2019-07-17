@@ -1,1 +1,1 @@
-# wiki_summarize
+# wiki_summarizer
