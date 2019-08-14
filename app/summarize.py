@@ -6,12 +6,13 @@ from services.rank_sentence import rank_sentences
 from services.order_sentence import order_sentences
 
 
-def summarize(text, number_of_sentence):
+def summarize(text, number_of_sentences):
     """
-    Summarize the text to given number_of_sentence.
+    Summarize the text to given number_of_sentences.
 
-    :param text: string
-    :param number_of_sentence: integer
+    :param text: string (the text being summarized)
+    :param number_of_sentences: integer
+    (Must be non-negative. If greater than the total number of sentence in text, returns the whole text)
     :return: string (the summary)
     """
 
@@ -23,8 +24,8 @@ def summarize(text, number_of_sentence):
     ranked_sents = rank_sentences(text, LEMMATIZER, keywords_mapping)
 
     # select sentences based on the numebr of sentences wanted
-    cutoff = number_of_sentence
-    if number_of_sentence > len(ranked_sents):
+    cutoff = number_of_sentences
+    if number_of_sentences > len(ranked_sents):
         cutoff = len(ranked_sents) - 1
     selected_sents = ranked_sents[:cutoff]
 
