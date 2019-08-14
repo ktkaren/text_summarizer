@@ -25,7 +25,7 @@ In your main.py, import summarize function by writing "from PATH.summarize impor
 The summarize function expext two parameters (the text you want to summarize and the number of sentences you want to summary to be) and return the summary as a string.
 
 Function header of the summarize function:
-
+```
 def summarize(text, number_of_sentences):
     """
     Summarize the text to given number_of_sentences.
@@ -35,4 +35,5 @@ def summarize(text, number_of_sentences):
     (Must be non-negative. If greater than the total number of sentence in text, returns the whole text)
     :return: string (the summary)
     """
+```
 
