@@ -24,7 +24,6 @@ def summarize(text, number_of_sentence):
 
     # select sentences based on the numebr of sentences wanted
     cutoff = number_of_sentence
-    print(len(ranked_sents))
     if number_of_sentence > len(ranked_sents):
         cutoff = len(ranked_sents) - 1
     selected_sents = ranked_sents[:cutoff]
