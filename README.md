@@ -1,10 +1,10 @@
 # wiki_summarizer
 
 ## Getting Started
-Steps to get started to deploy this project on the local machine.
+Steps to get started on deploying this project on the local machine.
 
 ### Prerequisites
-This project has been developed in python 3.7, its recommended to create virtual environment to manage dependencies required.
+This project was developed in python 3.7, it is recommended to create virtual environment to manage dependencies required.
 
 ### Installing
 Create Virtual Environment 
