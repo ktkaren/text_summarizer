@@ -1,4 +1,4 @@
-# wiki_summarizer
+# text_summarizer
 
 ## Getting Started
 Steps to get started on deploying this project on the local machine.
