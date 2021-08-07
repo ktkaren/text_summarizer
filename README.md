@@ -1,5 +1,7 @@
 # text_summarizer
 
+What is a text summarizer? Well, right now it's a tool that takes a chunk of text and spit out an extracted summary. I am working on adding some cooler features such as abstract summary, sentiment analysis and so much more!!
+
 ## Getting Started
 Steps to get started on deploying this project on the local machine.
 
