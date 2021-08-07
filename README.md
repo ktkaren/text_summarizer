@@ -9,15 +9,15 @@ Steps to get started on deploying this project on the local machine.
 This project was developed in python 3.7, it is recommended to create virtual environment to manage dependencies required.
 
 ### Installing
-Create Virtual Environment 
+Create virtual environment (note: must have virtualenv installed)
 
 ```python3 -m virtualenv venv```
 
-Activate Virtual Environment 
+Activate virtual environment 
 
 ```source venv/bin/activate```
 
-Download the Dependencies
+Navigate to the app directory and download the dependencies
 
 ```./setup.sh```
 
